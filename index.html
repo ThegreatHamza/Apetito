@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Appetito Restaurant Djibouti – Grillades & plateaux familiaux | مطعم شهية</title>
+<meta name="description" content="Appetito – مطعم شهية : grillades, kebabs, shawarma, plateaux mixtes familiaux, jus et milkshakes frais au centre de Djibouti, près de la Mosquée Hamoudi. Réservez ou commandez sur WhatsApp au +253 77 04 52 52.">
+<meta name="theme-color" content="#1E1A17">
+<!-- PLACEHOLDER: replace https://www.example.com/ with the real domain (canonical, Open Graph, JSON-LD) -->
+<link rel="canonical" href="https://www.example.com/">
+
+<!-- Open Graph / social sharing -->
+<meta property="og:type" content="restaurant">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:locale:alternate" content="ar_AR">
+<meta property="og:locale:alternate" content="en_GB">
+<meta property="og:site_name" content="Appetito Restaurant – مطعم شهية">
+<meta property="og:title" content="Appetito Restaurant Djibouti – Grillades & plateaux familiaux">
+<meta property="og:description" content="Grillades, kebabs, plateaux mixtes à partager en famille, jus et milkshakes frais. Rue de Bender, près de la Mosquée Hamoudi.">
+<!-- PLACEHOLDER: absolute URLs required for og:url and og:image (ideal image: 1200×630 JPG) -->
+<meta property="og:url" content="https://www.example.com/">
+<meta property="og:image" content="https://www.example.com/img/hero.jpg">
+<meta property="og:image:alt" content="Grand plateau de grillades mixtes d'Appetito Restaurant">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Fredoka:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/hero.jpg">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Appetito Restaurant",
+  "alternateName": "مطعم شهية",
+  "description": "Restaurant de grillades et restaurant familial à Djibouti : kebabs, shawarma, plateaux mixtes, jus et milkshakes frais.",
+  "url": "https://www.example.com/",
+  "image": "https://www.example.com/img/hero.jpg",
+  "telephone": "+25377045252",
+  "servesCuisine": ["Grillades", "Moyen-Orient", "Shawarma"],
+  "priceRange": "$$",
+  "acceptsReservations": "True",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rue de Bender, près de la Mosquée Hamoudi",
+    "addressLocality": "Djibouti",
+    "addressCountry": "DJ"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 11.5946, "longitude": 43.1449 },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday","Sunday","Monday","Tuesday","Wednesday","Thursday"], "opens": "11:30", "closes": "23:30" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "12:30", "closes": "23:30" }
+  ],
+  "sameAs": ["https://www.facebook.com/"]
+}
+</script>
+<!-- PLACEHOLDER (JSON-LD above): "url"/"image" domain, "geo" lat/long (approximate – take the exact pin from Google Maps), "priceRange", "sameAs" Facebook URL -->
+
+<style>
+:root{
+  --charcoal:#1E1A17;
+  --charcoal-2:#2B2420;
+  --charcoal-3:#3A302A;
+  --ember:#E8641B;
+  --ember-hot:#F58A2E;
+  --ember-deep:#B4460C;     /* AA-safe orange for small text on cream */
+  --gold:#FFB547;
+  --cream:#FFF6EA;
+  --cream-2:#F8E9D6;
+  --ink:#2A221D;
+  --muted:#6B5A4E;
+  --white:#fff;
+  --wa:#128C4A;
+  --ok:#1E8E4E;
+  --closed:#C0352B;
+  --radius:18px;
+  --radius-sm:12px;
+  --shadow:0 10px 30px -12px rgba(30,26,23,.35);
+  --flame:linear-gradient(135deg,#FFB547 0%,#F58A2E 40%,#E8641B 70%,#C2410C 100%);
+  --font-body:"Cairo",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --font-head:"Fredoka","Cairo",system-ui,sans-serif;
+  --header-h:64px;
+}
+html[lang="ar"]{ --font-head:"Cairo",system-ui,sans-serif; }
+
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--header-h) + 8px);-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{margin:0;font-family:var(--font-body);font-size:16px;line-height:1.6;color:var(--ink);background:var(--cream);overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--font-head);line-height:1.15;margin:0 0 .4em;font-weight:700}
+html[lang="ar"] h1,html[lang="ar"] h2,html[lang="ar"] h3{font-weight:800;line-height:1.35}
+p{margin:0 0 1em}
+.container{width:100%;max-width:1120px;margin-inline:auto;padding-inline:16px}
+.sr-only{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;inset-inline-start:8px;top:-60px;background:var(--gold);color:var(--charcoal);padding:8px 14px;border-radius:8px;z-index:200;font-weight:700}
+.skip:focus{top:8px}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px;border-radius:6px}
+
+/* ---------- Buttons ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5em;min-height:48px;padding:.7em 1.4em;border-radius:999px;border:0;font:700 1rem/1.2 var(--font-body);text-decoration:none;cursor:pointer;transition:transform .15s,box-shadow .15s}
+.btn:active{transform:scale(.97)}
+.btn-flame{background:var(--flame);color:var(--charcoal);box-shadow:0 8px 22px -8px rgba(232,100,27,.8)}
+.btn-ghost{background:rgba(255,255,255,.1);color:var(--white);border:2px solid rgba(255,255,255,.75)}
+.btn-dark{background:var(--charcoal);color:var(--cream)}
+.btn-wa{background:var(--wa);color:#fff}
+.btn svg{width:20px;height:20px;flex:none}
+
+/* ---------- Header ---------- */
+.site-header{position:sticky;top:0;z-index:100;background:rgba(30,26,23,.94);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);color:var(--cream);border-bottom:1px solid rgba(255,181,71,.18)}
+.header-row{display:flex;align-items:center;gap:10px;height:var(--header-h)}
+.brand{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--cream);margin-inline-end:auto;min-width:0}
+.brand-mark{width:36px;height:36px;border-radius:50%;background:var(--flame);display:grid;place-items:center;flex:none}
+.brand-mark svg{width:20px;height:20px}
+.brand-text{display:flex;flex-direction:column;line-height:1.05;min-width:0}
+.brand-name{font-family:"Fredoka",var(--font-body);font-weight:700;font-size:1.15rem;letter-spacing:.2px}
+.brand-ar{font-family:"Cairo",sans-serif;font-size:.78rem;color:var(--gold);font-weight:700}
+.lang-switch{display:flex;background:rgba(255,255,255,.08);border-radius:999px;padding:3px;flex:none}
+.lang-switch button{border:0;background:transparent;color:var(--cream);font:700 .78rem/1 var(--font-body);min-width:36px;height:32px;padding:0 8px;border-radius:999px;cursor:pointer}
+.lang-switch button[aria-pressed="true"]{background:var(--ember);color:var(--charcoal)}
+.lang-switch button[lang="ar"]{font-size:.85rem}
+.menu-toggle{width:44px;height:44px;border:0;border-radius:12px;background:rgba(255,255,255,.08);color:var(--cream);display:grid;place-items:center;cursor:pointer;flex:none}
+.menu-toggle span,.menu-toggle span::before,.menu-toggle span::after{content:"";display:block;width:20px;height:2px;background:currentColor;border-radius:2px;position:relative;transition:transform .2s,background .2s}
+.menu-toggle span::before{position:absolute;top:-6px}
+.menu-toggle span::after{position:absolute;top:6px}
+.menu-toggle[aria-expanded="true"] span{background:transparent}
+.menu-toggle[aria-expanded="true"] span::before{transform:translateY(6px) rotate(45deg)}
+.menu-toggle[aria-expanded="true"] span::after{transform:translateY(-6px) rotate(-45deg)}
+.main-nav{position:fixed;inset-inline:0;top:var(--header-h);background:var(--charcoal);padding:12px 16px 24px;transform:translateY(-8px);opacity:0;visibility:hidden;transition:opacity .2s,transform .2s,visibility .2s;box-shadow:var(--shadow);max-height:calc(100vh - var(--header-h));overflow:auto}
+.main-nav.open{opacity:1;transform:none;visibility:visible}
+.main-nav ul{list-style:none;margin:0;padding:0}
+.main-nav a{display:block;padding:14px 8px;color:var(--cream);text-decoration:none;font-weight:600;font-size:1.05rem;border-bottom:1px solid rgba(255,255,255,.08)}
+.main-nav a:hover{color:var(--gold)}
+.main-nav .nav-cta{margin-top:16px;width:100%}
+@media (min-width:960px){
+  .menu-toggle{display:none}
+  .main-nav{position:static;transform:none;opacity:1;visibility:visible;background:none;padding:0;box-shadow:none;max-height:none;overflow:visible;display:flex;align-items:center;gap:8px}
+  .main-nav ul{display:flex;gap:2px}
+  .main-nav a{border:0;padding:8px 10px;font-size:.95rem}
+  .main-nav .nav-cta{margin:0;width:auto;min-height:40px;padding:.5em 1.1em}
+  .header-row{gap:18px}
+}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;color:var(--white);min-height:min(88vh,720px);display:flex;align-items:flex-end;isolation:isolate;overflow:hidden;background:radial-gradient(120% 80% at 50% 110%,#E8641B 0%,#7a2c0a 35%,var(--charcoal) 70%)}
+.hero-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+.hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(30,26,23,.35) 0%,rgba(30,26,23,.55) 40%,rgba(30,26,23,.94) 100%)}
+.hero-inner{padding-block:56px 40px}
+.status-pill{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:.9rem;padding:6px 14px;border-radius:999px;background:rgba(30,26,23,.7);border:1px solid rgba(255,255,255,.25);margin-bottom:16px}
+.status-dot{width:10px;height:10px;border-radius:50%;background:#999;flex:none}
+.is-open .status-dot{background:#3BD16F;box-shadow:0 0 0 4px rgba(59,209,111,.25)}
+.is-closed .status-dot{background:#FF6B5E;box-shadow:0 0 0 4px rgba(255,107,94,.22)}
+.hero h1{font-size:clamp(2.3rem,10vw,4.2rem);margin-bottom:.15em;text-shadow:0 2px 18px rgba(0,0,0,.4)}
+.hero h1 .ar{display:block;font-family:"Cairo",sans-serif;font-weight:800;font-size:.72em;background:var(--flame);-webkit-background-clip:text;background-clip:text;color:transparent;line-height:1.5}
+.hero .tagline{font-size:clamp(1.1rem,4.6vw,1.4rem);font-weight:600;max-width:34ch;margin-bottom:1.4em;color:#FFF1DE}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:12px}
+.hero-ctas .btn{flex:1 1 150px}
+@media (min-width:600px){.hero-ctas .btn{flex:0 0 auto}}
+
+/* ---------- Sections ---------- */
+section{padding-block:56px}
+.section-head{margin-bottom:28px;text-align:center}
+.eyebrow{display:inline-block;font-weight:700;font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ember-deep);margin-bottom:6px}
+html[lang="ar"] .eyebrow{letter-spacing:0;font-size:.95rem}
+.section-head h2{font-size:clamp(1.8rem,7vw,2.6rem)}
+.section-head p{color:var(--muted);max-width:52ch;margin-inline:auto}
+.flame-rule{width:64px;height:5px;border-radius:5px;background:var(--flame);margin:10px auto 0}
+.dark{background:var(--charcoal);color:var(--cream)}
+.dark .eyebrow{color:var(--gold)}
+.dark .section-head p{color:#D9C8B6}
+
+/* ---------- Highlights ---------- */
+.highlights{padding-block:0;margin-top:-28px;position:relative;z-index:2}
+.hl-grid{display:grid;gap:12px;grid-template-columns:1fr}
+@media (min-width:640px){.hl-grid{grid-template-columns:repeat(3,1fr)}}
+.hl{display:flex;align-items:center;gap:14px;background:var(--white);border-radius:var(--radius);padding:16px 18px;box-shadow:var(--shadow)}
+.hl-icon{width:52px;height:52px;border-radius:16px;background:var(--flame);display:grid;place-items:center;flex:none}
+.hl-icon svg{width:28px;height:28px;color:var(--charcoal)}
+.hl h3{font-size:1.1rem;margin:0}
+.hl p{margin:0;color:var(--muted);font-size:.92rem;line-height:1.4}
+
+/* ---------- Menu ---------- */
+.tabs{display:flex;gap:8px;overflow-x:auto;padding:4px 2px 12px;margin-inline:-16px;padding-inline:16px;scrollbar-width:none;scroll-snap-type:x proximity}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:none;scroll-snap-align:start;border:2px solid var(--cream-2);background:var(--white);color:var(--ink);font:700 .95rem/1 var(--font-body);padding:12px 16px;border-radius:999px;cursor:pointer;min-height:44px;white-space:nowrap}
+.tab[aria-selected="true"]{background:var(--charcoal);color:var(--cream);border-color:var(--charcoal)}
+@media (min-width:760px){.tabs{justify-content:center;flex-wrap:wrap;margin-inline:0}}
+.menu-panel{display:grid;gap:12px;grid-template-columns:1fr;margin-top:8px}
+@media (min-width:760px){.menu-panel{grid-template-columns:1fr 1fr}}
+.dish{background:var(--white);border-radius:var(--radius-sm);padding:16px 18px;display:grid;grid-template-columns:1fr auto;gap:4px 12px;align-items:baseline;border-inline-start:4px solid var(--ember)}
+.dish h3{font-size:1.05rem;margin:0;font-family:var(--font-body);font-weight:700}
+.dish .price{font-weight:800;color:var(--ember-deep);white-space:nowrap}
+.dish .price.tbc{font-weight:600;color:var(--muted);font-size:.85rem}
+.dish p{grid-column:1/-1;margin:0;color:var(--muted);font-size:.92rem;line-height:1.45}
+.menu-note{text-align:center;color:var(--muted);font-size:.9rem;margin-top:18px}
+
+/* ---------- Platters ---------- */
+.platter-grid{display:grid;gap:16px;grid-template-columns:1fr}
+@media (min-width:760px){.platter-grid{grid-template-columns:repeat(3,1fr)}}
+.platter{position:relative;background:var(--charcoal-2);border-radius:var(--radius);padding:24px 20px 20px;display:flex;flex-direction:column;border:1px solid rgba(255,181,71,.18);overflow:hidden}
+.platter::before{content:"";position:absolute;inset-inline:0;top:0;height:5px;background:var(--flame)}
+.platter.featured{border-color:var(--ember);box-shadow:0 0 0 1px var(--ember),0 18px 40px -18px rgba(232,100,27,.7)}
+.platter .badge{position:absolute;top:16px;inset-inline-end:16px;background:var(--gold);color:var(--charcoal);font-weight:800;font-size:.75rem;padding:4px 10px;border-radius:999px}
+.platter .people{display:flex;align-items:center;gap:8px;color:var(--gold);font-weight:700;font-size:.95rem}
+.platter .people svg{width:22px;height:22px}
+.platter h3{font-size:1.4rem;margin:10px 0 6px;color:var(--white)}
+.platter ul{margin:0 0 16px;padding-inline-start:1.1em;color:#E6D6C4;font-size:.95rem}
+.platter .p-price{font-family:var(--font-head);font-size:1.6rem;font-weight:700;color:var(--white);margin-top:auto;margin-bottom:14px}
+.platter .p-price small{font-size:.55em;color:var(--gold);font-family:var(--font-body)}
+.platter .btn{width:100%}
+
+/* ---------- Order form ---------- */
+.order-wrap{display:grid;gap:24px}
+@media (min-width:900px){.order-wrap{grid-template-columns:1fr 1.2fr;align-items:start}}
+.order-aside{background:var(--flame);color:var(--charcoal);border-radius:var(--radius);padding:24px}
+.order-aside h3{font-size:1.4rem}
+.order-aside a{font-weight:800}
+.order-aside .btn{margin-top:8px}
+.order-aside .btn-dark{width:100%}
+form.card{background:var(--white);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow)}
+.field{margin-bottom:16px}
+.field label,.field legend{display:block;font-weight:700;margin-bottom:6px;font-size:.95rem}
+.field input,.field textarea{width:100%;font:500 1rem/1.4 var(--font-body);color:var(--ink);background:var(--cream);border:2px solid var(--cream-2);border-radius:var(--radius-sm);padding:12px 14px;min-height:48px}
+.field textarea{min-height:84px;resize:vertical}
+.field input:focus,.field textarea:focus{outline:none;border-color:var(--ember);background:#fff}
+.row-2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.order-wrap>*,.row-2>*{min-width:0}
+.field input{min-width:0;max-width:100%}
+input[type=date],input[type=time]{-webkit-appearance:none;appearance:none;display:block}
+fieldset.field{border:0;padding:0;margin-inline:0}
+.seg{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.seg{position:relative}
+.seg input{position:absolute;opacity:0;pointer-events:none;width:1px!important;height:1px;min-height:0!important;padding:0;margin:0;inset-inline-start:0;top:0}
+.seg label{margin:0;display:flex;align-items:center;justify-content:center;gap:8px;min-height:48px;border:2px solid var(--cream-2);background:var(--cream);border-radius:var(--radius-sm);cursor:pointer;font-weight:700;text-align:center;padding:8px}
+.seg input:checked+label{border-color:var(--ember);background:#FFE7D3;color:var(--charcoal)}
+.seg input:focus-visible+label{outline:3px solid var(--gold);outline-offset:2px}
+.stepper{display:flex;align-items:stretch;border:2px solid var(--cream-2);border-radius:var(--radius-sm);overflow:hidden;background:var(--cream)}
+.stepper button{width:48px;border:0;background:transparent;font:700 1.4rem/1 var(--font-body);color:var(--ember-deep);cursor:pointer}
+.stepper input{border:0!important;border-radius:0!important;text-align:center;min-width:0;background:transparent!important;-moz-appearance:textfield}
+.stepper input::-webkit-outer-spin-button,.stepper input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+.form-error{color:var(--closed);font-weight:700;font-size:.9rem;min-height:1.2em;margin:-4px 0 12px}
+.form-hint{font-size:.85rem;color:var(--muted);margin:6px 0 0}
+form .btn-wa{width:100%}
+
+/* ---------- Gallery ---------- */
+.gallery{display:grid;gap:8px;grid-template-columns:repeat(2,1fr)}
+@media (min-width:760px){.gallery{grid-template-columns:repeat(3,1fr);gap:12px}}
+.gallery button{border:0;padding:0;background:var(--charcoal-2);border-radius:var(--radius-sm);overflow:hidden;cursor:zoom-in;aspect-ratio:1/1;position:relative}
+.gallery img{width:100%;height:100%;object-fit:cover;transition:transform .35s}
+.gallery button:hover img{transform:scale(1.05)}
+.lightbox{position:fixed;inset:0;z-index:300;background:rgba(15,12,10,.95);display:none;align-items:center;justify-content:center;padding:56px 8px 72px}
+.lightbox.open{display:flex}
+.lightbox figure{margin:0;max-width:100%;max-height:100%;display:flex;flex-direction:column;align-items:center}
+.lightbox img{max-width:100%;max-height:calc(100vh - 160px);object-fit:contain;border-radius:10px}
+.lightbox figcaption{color:var(--cream);text-align:center;margin-top:10px;font-size:.95rem}
+.lb-btn{position:absolute;width:48px;height:48px;border-radius:50%;border:0;background:rgba(255,255,255,.14);color:#fff;display:grid;place-items:center;cursor:pointer}
+.lb-btn svg{width:24px;height:24px}
+.lb-close{top:10px;inset-inline-end:10px}
+.lb-prev,.lb-next{bottom:14px}
+.lb-prev{inset-inline-start:calc(50% - 60px)}
+.lb-next{inset-inline-end:calc(50% - 60px)}
+@media (min-width:760px){.lb-prev,.lb-next{bottom:auto;top:50%;transform:translateY(-50%)}.lb-prev{inset-inline-start:16px}.lb-next{inset-inline-end:16px}}
+html[dir="rtl"] .lb-prev svg,html[dir="rtl"] .lb-next svg{transform:scaleX(-1)}
+
+/* ---------- Reviews ---------- */
+.reviews-grid{display:grid;gap:16px;grid-template-columns:1fr}
+@media (min-width:760px){.reviews-grid{grid-template-columns:repeat(3,1fr)}}
+.review{background:var(--white);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow);margin:0}
+.review .stars{color:#E8A10E;letter-spacing:2px;font-size:1.1rem}
+.review blockquote{margin:8px 0 12px;font-size:1rem}
+.review figcaption{font-weight:700;color:var(--muted);font-size:.9rem}
+.reviews-empty{text-align:center;background:var(--white);border:2px dashed var(--cream-2);border-radius:var(--radius);padding:24px}
+.reviews-cta{text-align:center;margin-top:20px}
+
+/* ---------- Hours & map ---------- */
+.visit-grid{display:grid;gap:20px}
+@media (min-width:900px){.visit-grid{grid-template-columns:1fr 1.2fr}}
+.hours-card{background:var(--charcoal-2);border-radius:var(--radius);padding:20px;border:1px solid rgba(255,181,71,.18)}
+.hours-card .status-pill{background:rgba(0,0,0,.3)}
+table.hours{width:100%;border-collapse:collapse;font-size:1rem}
+table.hours th,table.hours td{padding:11px 8px;text-align:start;border-bottom:1px solid rgba(255,255,255,.08)}
+table.hours td{text-align:end;font-variant-numeric:tabular-nums;white-space:nowrap}
+table.hours tr.friday th,table.hours tr.friday td{color:var(--gold)}
+table.hours tr.friday th::after{content:attr(data-note);display:block;font-size:.78rem;font-weight:600;color:#D9C8B6}
+table.hours tr.today{background:rgba(232,100,27,.16)}
+table.hours tr.today th{position:relative}
+table.hours tr.today th::before{content:"";position:absolute;inset-inline-start:-8px;top:8px;bottom:8px;width:4px;border-radius:4px;background:var(--ember)}
+.address{margin-top:16px;display:flex;gap:10px;align-items:flex-start}
+.address svg{width:22px;height:22px;color:var(--gold);flex:none;margin-top:3px}
+.map{border-radius:var(--radius);overflow:hidden;min-height:320px;background:var(--charcoal-3)}
+.map iframe{width:100%;height:100%;min-height:320px;border:0;display:block}
+
+/* ---------- Footer ---------- */
+footer{background:#15110F;color:#D9C8B6;padding:40px 0 100px;font-size:.95rem}
+.foot-grid{display:grid;gap:24px}
+@media (min-width:760px){.foot-grid{grid-template-columns:1.3fr 1fr 1fr}}
+footer h2{font-size:1.1rem;color:var(--cream);margin-bottom:10px}
+footer ul{list-style:none;margin:0;padding:0}
+footer li{margin-bottom:8px}
+footer a{color:var(--cream);text-decoration-color:rgba(255,181,71,.5);text-underline-offset:3px}
+footer a:hover{color:var(--gold)}
+.foot-bottom{margin-top:28px;padding-top:18px;border-top:1px solid rgba(255,255,255,.08);display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:space-between;font-size:.85rem}
+.ltr{direction:ltr;unicode-bidi:isolate;display:inline-block}
+
+/* ---------- Floating WhatsApp ---------- */
+.wa-float{position:fixed;bottom:calc(16px + env(safe-area-inset-bottom));inset-inline-end:16px;z-index:150;width:58px;height:58px;border-radius:50%;background:var(--wa);color:#fff;display:grid;place-items:center;box-shadow:0 10px 24px -6px rgba(0,0,0,.45);text-decoration:none}
+.wa-float svg{width:32px;height:32px}
+.wa-float::after{content:"";position:absolute;inset:-4px;border-radius:50%;border:2px solid rgba(18,140,74,.6);animation:pulse 2.4s infinite}
+@keyframes pulse{0%{transform:scale(.9);opacity:1}100%{transform:scale(1.3);opacity:0}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Aller au contenu</a>
+
+<!-- ================= HEADER ================= -->
+<header class="site-header">
+  <div class="container header-row">
+    <a class="brand" href="#top" aria-label="Appetito Restaurant – مطعم شهية">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="#1E1A17"><path d="M12 2c1 3.5 4.5 5 4.5 9.5a4.5 4.5 0 0 1-9 0c0-1.8.8-3 1.8-4 .2 1.5 1 2.5 2.2 2.5-1-2.5-.5-5.5.5-8zM6 18h12a1 1 0 0 1 0 2H6a1 1 0 0 1 0-2z"/></svg>
+      </span>
+      <span class="brand-text"><span class="brand-name">Appetito</span><span class="brand-ar" lang="ar">مطعم شهية</span></span>
+    </a>
+
+    <nav class="main-nav" id="main-nav" aria-label="Menu principal" data-i18n-attr="aria-label:navLabel">
+      <ul>
+        <li><a href="#menu" data-i18n="navMenu">Menu</a></li>
+        <li><a href="#platters" data-i18n="navPlatters">Plateaux familiaux</a></li>
+        <li><a href="#gallery" data-i18n="navGallery">Galerie</a></li>
+        <li><a href="#reviews" data-i18n="navReviews">Avis</a></li>
+        <li><a href="#visit" data-i18n="navVisit">Horaires & accès</a></li>
+      </ul>
+      <a class="btn btn-flame nav-cta" href="#order" data-i18n="ctaOrder">Commander</a>
+    </nav>
+
+    <div class="lang-switch" role="group" aria-label="Langue / اللغة / Language">
+      <button type="button" data-lang="fr" lang="fr" aria-pressed="true">FR</button>
+      <button type="button" data-lang="ar" lang="ar" aria-pressed="false">عربي</button>
+      <button type="button" data-lang="en" lang="en" aria-pressed="false">EN</button>
+    </div>
+    <button class="menu-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="Ouvrir le menu" data-i18n-attr="aria-label:navOpen"><span></span></button>
+  </div>
+</header>
+
+<main id="main">
+<!-- ================= 1. HERO ================= -->
+<section class="hero" id="top" aria-labelledby="hero-title">
+  <!-- PLACEHOLDER: img/hero.jpg – replace with a high-resolution grill photo (≈1600×1000, <250 KB). The current file is a low-res stand-in copied from your Facebook visuals. -->
+  <img class="hero-img" src="img/hero.jpg" alt="Grand plateau de grillades mixtes, kebabs et wraps d'Appetito" data-i18n-attr="alt:heroAlt" width="1600" height="1000" fetchpriority="high" decoding="async" onerror="this.remove()">
+  <div class="container hero-inner">
+    <p class="status-pill js-status" role="status" aria-live="polite"><span class="status-dot" aria-hidden="true"></span><span class="js-status-text">…</span></p>
+    <h1 id="hero-title">Appetito <span class="ar" lang="ar">مطعم شهية</span></h1>
+    <!-- PLACEHOLDER: [TAGLINE] – edit the "tagline" entry in the I18N dictionary (fr / ar / en) -->
+    <p class="tagline" data-i18n="tagline">Le goût de la braise, l'esprit de famille.</p>
+    <div class="hero-ctas">
+      <a class="btn btn-ghost" href="#menu" data-i18n="ctaMenu">Voir le menu</a>
+      <a class="btn btn-flame" href="#order" data-i18n="ctaOrder">Commander</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 2. HIGHLIGHTS ================= -->
+<section class="highlights" aria-label="Points forts" data-i18n-attr="aria-label:hlLabel">
+  <div class="container hl-grid">
+    <div class="hl">
+      <span class="hl-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 11h18M5 11l1.5 8h11L19 11M8 7c0-1.5 1-2 1-3.5M12 7c0-1.5 1-2 1-3.5M16 7c0-1.5 1-2 1-3.5"/></svg></span>
+      <div><h3 data-i18n="hl1t">Grillades</h3><p data-i18n="hl1d">Viandes marinées, cuites à la braise devant vous.</p></div>
+    </div>
+    <!-- PLACEHOLDER: [FAMILY AREA YES/NO] – set FAMILY_AREA in the script (true = "Espace familial", false = card switches to "Sur place & à emporter") -->
+    <div class="hl" id="hl-family">
+      <span class="hl-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="8" cy="6" r="2.5"/><circle cx="16" cy="6" r="2.5"/><circle cx="12" cy="12" r="2"/><path d="M4 20v-4a4 4 0 0 1 4-4M20 20v-4a4 4 0 0 0-4-4M9 20v-2a3 3 0 0 1 6 0v2"/></svg></span>
+      <div><h3 data-i18n="hl2t">Espace familial</h3><p data-i18n="hl2d">Un espace calme et confortable pour les familles.</p></div>
+    </div>
+    <div class="hl">
+      <span class="hl-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h12l-1.5 13h-9zM9 8l1-5h4M6 12h12"/></svg></span>
+      <div><h3 data-i18n="hl3t">Jus & milkshakes frais</h3><p data-i18n="hl3d">Pressés et mixés à la commande.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 3. MENU ================= -->
+<section id="menu" aria-labelledby="menu-title">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow" data-i18n="menuEyebrow">Notre carte</span>
+      <h2 id="menu-title" data-i18n="menuTitle">Le menu</h2>
+      <div class="flame-rule"></div>
+    </div>
+    <div class="tabs" role="tablist" aria-labelledby="menu-title" id="menu-tabs"></div>
+    <div class="menu-panel" role="tabpanel" id="menu-panel" tabindex="0"></div>
+    <p class="menu-note" data-i18n="menuNote">Prix en francs djiboutiens (DJF). Demandez-nous les plats du jour.</p>
+  </div>
+</section>
+
+<!-- ================= 4. FAMILY PLATTERS ================= -->
+<section id="platters" class="dark" aria-labelledby="platters-title">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow" data-i18n="platEyebrow">À partager</span>
+      <h2 id="platters-title" data-i18n="platTitle">Plateaux familiaux</h2>
+      <p data-i18n="platIntro">De grands plateaux de grillades pensés pour la famille et les amis.</p>
+      <div class="flame-rule"></div>
+    </div>
+    <div class="platter-grid" id="platter-grid"></div>
+  </div>
+</section>
+
+<!-- ================= 5. ORDER / RESERVATION ================= -->
+<section id="order" aria-labelledby="order-title">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow" data-i18n="orderEyebrow">Réservation & commande</span>
+      <h2 id="order-title" data-i18n="orderTitle">Réservez ou commandez sur WhatsApp</h2>
+      <p data-i18n="orderIntro">Remplissez le formulaire : votre message WhatsApp est prêt, il ne reste qu'à l'envoyer.</p>
+      <div class="flame-rule"></div>
+    </div>
+    <div class="order-wrap">
+      <aside class="order-aside">
+        <h3 data-i18n="asideTitle">Plus rapide par téléphone ?</h3>
+        <p data-i18n="asideText">Appelez-nous directement, nous répondons pendant les heures d'ouverture.</p>
+        <a class="btn btn-dark" href="tel:+25377045252">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.6a1 1 0 0 1-.25 1z"/></svg>
+          <span class="ltr">+253 77 04 52 52</span>
+        </a>
+      </aside>
+
+      <form class="card" id="order-form" novalidate>
+        <div class="field">
+          <label for="f-name" data-i18n="fName">Votre nom</label>
+          <input id="f-name" name="name" type="text" autocomplete="name" required maxlength="60">
+        </div>
+        <div class="field">
+          <label for="f-people" data-i18n="fPeople">Nombre de personnes</label>
+          <div class="stepper">
+            <button type="button" data-step="-1" aria-label="−1">−</button>
+            <input id="f-people" name="people" type="number" inputmode="numeric" min="1" max="60" value="2" required>
+            <button type="button" data-step="1" aria-label="+1">+</button>
+          </div>
+        </div>
+        <div class="row-2">
+          <div class="field">
+            <label for="f-date" data-i18n="fDate">Date</label>
+            <input id="f-date" name="date" type="date" required>
+          </div>
+          <div class="field">
+            <label for="f-time" data-i18n="fTime">Heure</label>
+            <input id="f-time" name="time" type="time" min="11:30" max="23:30" step="900" required>
+          </div>
+        </div>
+        <fieldset class="field">
+          <legend data-i18n="fMode">Sur place ou à emporter ?</legend>
+          <div class="seg">
+            <input type="radio" id="m-dine" name="mode" value="dine" checked>
+            <label for="m-dine" data-i18n="modeDine">Sur place</label>
+            <input type="radio" id="m-take" name="mode" value="take">
+            <label for="m-take" data-i18n="modeTake">À emporter</label>
+          </div>
+        </fieldset>
+        <div class="field">
+          <label for="f-note" data-i18n="fNote">Commande ou remarque (facultatif)</label>
+          <textarea id="f-note" name="note" maxlength="400" data-i18n-attr="placeholder:fNotePh" placeholder="Ex. : 1 plateau familial, chaise bébé…"></textarea>
+        </div>
+        <p class="form-error" id="form-error" role="alert"></p>
+        <button class="btn btn-wa" type="submit">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#ico-wa"/></svg>
+          <span data-i18n="fSubmit">Envoyer sur WhatsApp</span>
+        </button>
+        <p class="form-hint" data-i18n="fHint">WhatsApp s'ouvre avec votre message pré-rempli. Rien n'est envoyé sans votre confirmation.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 6. GALLERY ================= -->
+<section id="gallery" class="dark" aria-labelledby="gallery-title">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow" data-i18n="galEyebrow">En images</span>
+      <h2 id="gallery-title" data-i18n="galTitle">Galerie</h2>
+      <div class="flame-rule"></div>
+    </div>
+    <!-- PLACEHOLDER: gallery photos – edit the GALLERY array in the script (6–9 files in img/, ideally square, ~800px, <150 KB each).
+         The 6 current files are low-res stand-ins taken from your Facebook visuals. -->
+    <div class="gallery" id="gallery-grid"></div>
+  </div>
+</section>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo" hidden>
+  <button class="lb-btn lb-close" type="button" data-i18n-attr="aria-label:close" aria-label="Fermer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  <button class="lb-btn lb-prev" type="button" data-i18n-attr="aria-label:prev" aria-label="Précédente"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg></button>
+  <figure><img id="lb-img" src="data:," alt=""><figcaption id="lb-cap"></figcaption></figure>
+  <button class="lb-btn lb-next" type="button" data-i18n-attr="aria-label:next" aria-label="Suivante"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M9 5l7 7-7 7"/></svg></button>
+</div>
+
+<!-- ================= 7. REVIEWS ================= -->
+<section id="reviews" aria-labelledby="reviews-title">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow" data-i18n="revEyebrow">Ils en parlent</span>
+      <h2 id="reviews-title" data-i18n="revTitle">Avis de nos clients</h2>
+      <div class="flame-rule"></div>
+    </div>
+    <!-- PLACEHOLDER: real Google reviews – paste them into the REVIEWS array in the script (3 slots ready).
+         Never invent reviews. While the array is empty, visitors see a link to the Google reviews instead. -->
+    <div class="reviews-grid" id="reviews-grid"></div>
+    <p class="reviews-cta">
+      <!-- PLACEHOLDER: GOOGLE_REVIEWS_URL in the script – your Google Business "read reviews" link -->
+      <a class="btn btn-dark" id="reviews-link" href="#" target="_blank" rel="noopener" data-i18n="revCta">Voir tous les avis sur Google</a>
+    </p>
+  </div>
+</section>
+
+<!-- ================= 8. HOURS & MAP ================= -->
+<section id="visit" class="dark" aria-labelledby="visit-title">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow" data-i18n="visEyebrow">Venez nous voir</span>
+      <h2 id="visit-title" data-i18n="visTitle">Horaires & accès</h2>
+      <div class="flame-rule"></div>
+    </div>
+    <div class="visit-grid">
+      <div class="hours-card">
+        <p class="status-pill js-status"><span class="status-dot" aria-hidden="true"></span><span class="js-status-text">…</span></p>
+        <table class="hours" id="hours-table">
+          <caption class="sr-only" data-i18n="hoursCaption">Horaires d'ouverture (heure de Djibouti)</caption>
+          <tbody></tbody>
+        </table>
+        <div class="address">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>
+          <div>
+            <strong data-i18n="address">Rue de Bender, près de la Mosquée Hamoudi, Djibouti</strong><br>
+            <!-- PLACEHOLDER: MAPS_LINK in the script – the "Share" link of your exact Google Maps pin -->
+            <a id="directions-link" href="https://www.google.com/maps/search/?api=1&query=Mosqu%C3%A9e+Hamoudi+Djibouti" target="_blank" rel="noopener" data-i18n="directions">Itinéraire Google Maps</a>
+          </div>
+        </div>
+      </div>
+      <div class="map">
+        <!-- PLACEHOLDER: Google Maps embed – in Google Maps: Share › Embed a map › copy the src="…" of your exact pin and paste it here -->
+        <iframe src="https://www.google.com/maps?q=Mosqu%C3%A9e+Hamoudi,+Djibouti&z=17&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Carte : Appetito Restaurant, Djibouti" data-i18n-attr="title:mapTitle" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ================= 9. FOOTER ================= -->
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div>
+        <h2>Appetito Restaurant – <span lang="ar">مطعم شهية</span></h2>
+        <p data-i18n="footAbout">Grillades, plateaux mixtes et jus frais au cœur de Djibouti.</p>
+      </div>
+      <div>
+        <h2 data-i18n="footContact">Contact</h2>
+        <ul>
+          <li><a href="tel:+25377045252" class="ltr">+253 77 04 52 52</a></li>
+          <li><a href="https://wa.me/25377045252" target="_blank" rel="noopener">WhatsApp</a></li>
+          <!-- PLACEHOLDER: [URL] – Facebook page address -->
+          <li><a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 data-i18n="footHours">Horaires</h2>
+        <ul>
+          <li data-i18n="footHours1">Sam – Jeu : 11h30 – 23h30</li>
+          <li data-i18n="footHours2">Vendredi : 12h30 – 23h30</li>
+          <li data-i18n="address">Rue de Bender, près de la Mosquée Hamoudi, Djibouti</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="year">2026</span> Appetito Restaurant</span>
+      <!-- PLACEHOLDER: [YOUR PHONE] – your number, in both the text and the tel: link (digits only, e.g. tel:+2537700000) -->
+      <span><span data-i18n="madeBy">Site réalisé par</span> Hamza – <a href="tel:+253" class="ltr">[YOUR PHONE]</a></span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/25377045252" target="_blank" rel="noopener" aria-label="WhatsApp Appetito" data-i18n-attr="aria-label:waFloat">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#ico-wa"/></svg>
+</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="ico-wa" viewBox="0 0 24 24"><path d="M12.04 2a9.9 9.9 0 0 0-8.5 15l-1.4 5 5.2-1.36A9.9 9.9 0 1 0 12.04 2zm0 18.1a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.1.81.83-3.02-.2-.31a8.22 8.22 0 1 1 6.95 3.85zm4.5-6.15c-.25-.12-1.47-.72-1.7-.8-.22-.09-.39-.13-.55.12-.17.25-.64.8-.78.97-.14.16-.29.18-.54.06a6.7 6.7 0 0 1-3.34-2.92c-.25-.43.25-.4.72-1.34.08-.16.04-.3-.02-.43-.06-.12-.55-1.33-.76-1.82-.2-.48-.4-.41-.55-.42h-.47a.9.9 0 0 0-.66.31 2.76 2.76 0 0 0-.86 2.05 4.8 4.8 0 0 0 1 2.55 11 11 0 0 0 4.21 3.72c1.57.68 2.19.74 2.97.62.48-.07 1.47-.6 1.68-1.18.2-.58.2-1.08.14-1.18-.06-.11-.23-.17-.48-.3z"/></symbol>
+</svg>
+
+<script>
+(function(){
+"use strict";
+
+/* =====================================================================
+   CONFIGURATION – everything you need to edit is in this block
+   ===================================================================== */
+var WHATSAPP = "25377045252";              // wa.me number (no + or spaces)
+var FAMILY_AREA = true;                    // PLACEHOLDER: [FAMILY AREA YES/NO] – true or false
+var GOOGLE_REVIEWS_URL = "";               // PLACEHOLDER: Google reviews link (empty = button hidden)
+
+/* Menu – PLACEHOLDER: [MENU AND PRICES]
+   Dishes below are EXAMPLES only (names partly taken from your posters).
+   Replace names and set price as a number in DJF, e.g. price: 1500.
+   price: null shows "Prix à confirmer" – do not go live with null prices. */
+var MENU = [
+  { id:"grill", name:{fr:"Grillades & kebabs", ar:"مشاوي وكباب", en:"Grills & kebabs"}, items:[
+    { name:{fr:"Kebab grillé", ar:"كباب مشوي", en:"Grilled kebab"}, desc:{fr:"Brochettes de viande hachée épicée, pain, salade.", ar:"أسياخ لحم مفروم متبل مع خبز وسلطة.", en:"Spiced minced-meat skewers, bread, salad."}, price:null },
+    { name:{fr:"Shish taouk", ar:"شيش طاووق", en:"Shish taouk"}, desc:{fr:"Poulet mariné grillé au feu de bois.", ar:"دجاج متبل مشوي على الفحم.", en:"Marinated chicken, charcoal-grilled."}, price:null },
+    { name:{fr:"Assiette shawarma au poulet", ar:"صحن شاورما دجاج", en:"Chicken shawarma plate"}, desc:{fr:"Shawarma, frites, salade et sauce maison.", ar:"شاورما مع بطاطس وسلطة وصوص البيت.", en:"Shawarma, fries, salad, house sauce."}, price:null },
+    { name:{fr:"Assiette shawarma à la viande", ar:"صحن شاورما لحم", en:"Beef shawarma plate"}, desc:{fr:"Shawarma viande, frites, houmous et crudités.", ar:"شاورما لحم مع بطاطس وحمص وخضار.", en:"Beef shawarma, fries, hummus, vegetables."}, price:null },
+    { name:{fr:"Shawarma avec du riz", ar:"شاورما مع الرز", en:"Shawarma with rice"}, desc:{fr:"Riz parfumé, amandes grillées, sauce piquante.", ar:"رز معطر مع لوز محمص وصوص حار.", en:"Fragrant rice, toasted almonds, hot sauce."}, price:null }
+  ]},
+  { id:"mixed", name:{fr:"Plateaux mixtes", ar:"مشاوي مشكلة", en:"Mixed grill"}, items:[
+    { name:{fr:"Mixed grill (1 personne)", ar:"مشاوي مشكلة (شخص واحد)", en:"Mixed grill (1 person)"}, desc:{fr:"Kebab, taouk, côtelettes, frites et salade.", ar:"كباب وطاووق وريش مع بطاطس وسلطة.", en:"Kebab, taouk, chops, fries and salad."}, price:null },
+    { name:{fr:"Mixed grill (2 personnes)", ar:"مشاوي مشكلة (شخصين)", en:"Mixed grill (2 people)"}, desc:{fr:"Assortiment de grillades, riz, pain et sauces.", ar:"تشكيلة مشاوي مع رز وخبز وصوصات.", en:"Assorted grills, rice, bread and sauces."}, price:null }
+  ]},
+  { id:"starters", name:{fr:"Entrées", ar:"مقبلات", en:"Starters"}, items:[
+    { name:{fr:"Houmous", ar:"حمص", en:"Hummus"}, desc:{fr:"Pois chiches, tahini, citron, huile d'olive.", ar:"حمص بالطحينة والليمون وزيت الزيتون.", en:"Chickpeas, tahini, lemon, olive oil."}, price:null },
+    { name:{fr:"Moutabal", ar:"متبل", en:"Moutabal"}, desc:{fr:"Caviar d'aubergine fumée.", ar:"باذنجان مشوي بالطحينة.", en:"Smoky aubergine dip."}, price:null },
+    { name:{fr:"Fattouche", ar:"فتوش", en:"Fattoush"}, desc:{fr:"Salade croquante, pain grillé, sumac.", ar:"سلطة مقرمشة مع خبز محمص وسماق.", en:"Crunchy salad, toasted bread, sumac."}, price:null },
+    { name:{fr:"Frites maison", ar:"بطاطس مقلية", en:"Fries"}, desc:{fr:"", ar:"", en:""}, price:null }
+  ]},
+  { id:"drinks", name:{fr:"Jus & milkshakes", ar:"عصائر وميلك شيك", en:"Juices & milkshakes"}, items:[
+    { name:{fr:"Jus de mangue frais", ar:"عصير مانجو طازج", en:"Fresh mango juice"}, desc:{fr:"", ar:"", en:""}, price:null },
+    { name:{fr:"Citron – menthe", ar:"ليمون بالنعناع", en:"Lemon & mint"}, desc:{fr:"", ar:"", en:""}, price:null },
+    { name:{fr:"Cocktail de fruits", ar:"كوكتيل فواكه", en:"Fruit cocktail"}, desc:{fr:"", ar:"", en:""}, price:null },
+    { name:{fr:"Milkshake vanille / chocolat / fraise", ar:"ميلك شيك فانيليا / شوكولاتة / فراولة", en:"Vanilla / chocolate / strawberry milkshake"}, desc:{fr:"", ar:"", en:""}, price:null }
+  ]},
+  { id:"desserts", name:{fr:"Desserts", ar:"حلويات", en:"Desserts"}, items:[
+    { name:{fr:"Kunafa", ar:"كنافة", en:"Kunafa"}, desc:{fr:"", ar:"", en:""}, price:null },
+    { name:{fr:"Basboussa", ar:"بسبوسة", en:"Basbousa"}, desc:{fr:"", ar:"", en:""}, price:null },
+    { name:{fr:"Crème caramel", ar:"كريم كراميل", en:"Crème caramel"}, desc:{fr:"", ar:"", en:""}, price:null }
+  ]}
+];
+
+/* Family platters – PLACEHOLDER: [PLATTERS AND PRICES] (names, contents, people, price in DJF) */
+var PLATTERS = [
+  { people:"2–3", featured:false,
+    name:{fr:"Plateau Duo", ar:"صينية الثنائي", en:"Duo platter"},
+    items:{fr:["Kebab & shish taouk","Frites et riz","Houmous, salade, pain"], ar:["كباب وشيش طاووق","بطاطس ورز","حمص وسلطة وخبز"], en:["Kebab & shish taouk","Fries and rice","Hummus, salad, bread"]},
+    price:null },
+  { people:"4–6", featured:true,
+    name:{fr:"Plateau Famille", ar:"صينية العائلة", en:"Family platter"},
+    items:{fr:["Grillades mixtes et wraps shawarma","Riz, frites, pain","2 entrées + 1 grande bouteille de jus"], ar:["مشاوي مشكلة ولفائف شاورما","رز وبطاطس وخبز","مقبلتان + عصير كبير"], en:["Mixed grills and shawarma wraps","Rice, fries, bread","2 starters + 1 large juice"]},
+    price:null },
+  { people:"8–10", featured:false,
+    name:{fr:"Plateau Fête", ar:"صينية العزومة", en:"Feast platter"},
+    items:{fr:["Grand plateau royal de grillades","Riz, frites, salades","Entrées et sauces à volonté"], ar:["صينية مشاوي ملكية كبيرة","رز وبطاطس وسلطات","مقبلات وصوصات"], en:["Large royal grill platter","Rice, fries, salads","Starters and sauces"]},
+    price:null }
+];
+
+/* Gallery – PLACEHOLDER: file names and alt text (6–9 photos) */
+var GALLERY = [
+  { src:"img/gallery-1.jpg", w:595, h:336, alt:{fr:"Grand plateau de grillades mixtes, kebabs et wraps", ar:"صينية كبيرة من المشاوي المشكلة والكباب واللفائف", en:"Large mixed grill platter with kebabs and wraps"} },
+  { src:"img/gallery-2.jpg", w:399, h:501, alt:{fr:"Wrap shawarma au poulet et frites", ar:"لفائف شاورما دجاج مع بطاطس", en:"Chicken shawarma wrap with fries"} },
+  { src:"img/gallery-3.jpg", w:399, h:501, alt:{fr:"Assiette shawarma à la viande, frites et houmous", ar:"صحن شاورما لحم مع بطاطس وحمص", en:"Beef shawarma plate with fries and hummus"} },
+  { src:"img/gallery-4.jpg", w:554, h:554, alt:{fr:"Pizza margherita sur planche en bois", ar:"بيتزا مارجريتا على لوح خشبي", en:"Margherita pizza on a wooden board"} },
+  { src:"img/gallery-5.jpg", w:201, h:251, alt:{fr:"Assiette shawarma avec crudités et citron", ar:"صحن شاورما مع خضار وليمون", en:"Shawarma plate with vegetables and lemon"} },
+  { src:"img/gallery-6.jpg", w:201, h:251, alt:{fr:"Shawarma avec du riz, amandes et sauces", ar:"شاورما مع الرز واللوز والصوصات", en:"Shawarma with rice, almonds and sauces"} }
+];
+
+/* Reviews – PLACEHOLDER: paste REAL Google reviews only (3 slots). Example of one entry:
+   { author:"Prénom N.", stars:5, text:"Texte exact de l'avis…", lang:"fr" },          */
+var REVIEWS = [
+  /* slot 1 */
+  /* slot 2 */
+  /* slot 3 */
+];
+
+/* Opening hours (Djibouti = UTC+3, no daylight saving). 0=Sunday … 6=Saturday */
+var HOURS = { 0:["11:30","23:30"],1:["11:30","23:30"],2:["11:30","23:30"],3:["11:30","23:30"],4:["11:30","23:30"],5:["12:30","23:30"],6:["11:30","23:30"] };
+var DAY_ORDER = [6,0,1,2,3,4,5]; // Saturday first, as customary in Djibouti
+
+/* =====================================================================
+   TRANSLATIONS
+   ===================================================================== */
+var I18N = {
+fr:{
+  skip:"Aller au contenu", navLabel:"Menu principal", navOpen:"Ouvrir le menu", navClose:"Fermer le menu",
+  navMenu:"Menu", navPlatters:"Plateaux familiaux", navGallery:"Galerie", navReviews:"Avis", navVisit:"Horaires & accès",
+  ctaOrder:"Commander", ctaMenu:"Voir le menu",
+  heroAlt:"Grand plateau de grillades mixtes, kebabs et wraps d'Appetito",
+  tagline:"Le goût de la braise, l'esprit de famille.",
+  hlLabel:"Points forts",
+  hl1t:"Grillades", hl1d:"Viandes marinées, cuites à la braise.",
+  hl2t:"Espace familial", hl2d:"Un espace calme et confortable pour les familles.",
+  hl2tAlt:"Sur place & à emporter", hl2dAlt:"Mangez chez nous ou emportez votre commande.",
+  hl3t:"Jus & milkshakes frais", hl3d:"Pressés et mixés à la commande.",
+  menuEyebrow:"Notre carte", menuTitle:"Le menu", menuNote:"Prix en francs djiboutiens (DJF). Demandez-nous les plats du jour.",
+  priceTbc:"Prix à confirmer", currency:"DJF",
+  platEyebrow:"À partager", platTitle:"Plateaux familiaux", platIntro:"De grands plateaux de grillades pensés pour la famille et les amis.",
+  people:"personnes", popular:"Le plus choisi", platOrder:"Commander ce plateau",
+  orderEyebrow:"Réservation & commande", orderTitle:"Réservez ou commandez sur WhatsApp",
+  orderIntro:"Remplissez le formulaire : votre message WhatsApp est prêt, il ne reste qu'à l'envoyer.",
+  asideTitle:"Plus rapide par téléphone ?", asideText:"Appelez-nous directement, nous répondons pendant les heures d'ouverture.",
+  fName:"Votre nom", fPeople:"Nombre de personnes", fDate:"Date", fTime:"Heure", fMode:"Sur place ou à emporter ?",
+  modeDine:"Sur place", modeTake:"À emporter", fNote:"Commande ou remarque (facultatif)", fNotePh:"Ex. : 1 plateau familial, chaise bébé…",
+  fSubmit:"Envoyer sur WhatsApp", fHint:"WhatsApp s'ouvre avec votre message pré-rempli. Rien n'est envoyé sans votre confirmation.",
+  errName:"Merci d'indiquer votre nom.", errPeople:"Indiquez un nombre de personnes (1 à 60).", errDate:"Choisissez une date (aujourd'hui ou plus tard).",
+  errTime:"Choisissez une heure pendant nos horaires d'ouverture ({h}).", errPast:"Cette heure est déjà passée, choisissez-en une autre.",
+  waHello:"Bonjour Appetito 👋", waIntroDine:"Je souhaite réserver une table :", waIntroTake:"Je souhaite passer une commande à emporter :",
+  waName:"Nom", waPeople:"Personnes", waDate:"Date", waTime:"Heure", waMode:"Type", waNote:"Remarque", waThanks:"Merci !",
+  waPlatter:"Bonjour Appetito 👋 Je souhaite commander le {p}.",
+  galEyebrow:"En images", galTitle:"Galerie", close:"Fermer", prev:"Photo précédente", next:"Photo suivante", openPhoto:"Agrandir la photo",
+  revEyebrow:"Ils en parlent", revTitle:"Avis de nos clients", revCta:"Voir tous les avis sur Google",
+  revEmpty:"Les avis de nos clients arrivent bientôt ici. Vous êtes déjà venu ? Laissez-nous un avis sur Google !",
+  visEyebrow:"Venez nous voir", visTitle:"Horaires & accès", hoursCaption:"Horaires d'ouverture (heure de Djibouti)",
+  days:["Dimanche","Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi"], fridayNote:"Ouverture après la prière",
+  open:"Ouvert maintenant", closed:"Fermé", closesAt:"ferme à {t}", opensAt:"ouvre à {t}", opensTomorrow:"ouvre demain à {t}",
+  address:"Rue de Bender, près de la Mosquée Hamoudi, Djibouti", directions:"Itinéraire Google Maps", mapTitle:"Carte : Appetito Restaurant, Djibouti",
+  footAbout:"Grillades, plateaux mixtes et jus frais au cœur de Djibouti.", footContact:"Contact", footHours:"Horaires",
+  footHours1:"Sam – Jeu : 11h30 – 23h30", footHours2:"Vendredi : 12h30 – 23h30", madeBy:"Site réalisé par", waFloat:"Écrire à Appetito sur WhatsApp",
+  locale:"fr-FR", title:"Appetito Restaurant Djibouti – Grillades & plateaux familiaux | مطعم شهية"
+},
+ar:{
+  skip:"انتقل إلى المحتوى", navLabel:"القائمة الرئيسية", navOpen:"فتح القائمة", navClose:"إغلاق القائمة",
+  navMenu:"المنيو", navPlatters:"صواني العائلة", navGallery:"الصور", navReviews:"الآراء", navVisit:"المواعيد والموقع",
+  ctaOrder:"اطلب الآن", ctaMenu:"شاهد المنيو",
+  heroAlt:"صينية كبيرة من المشاوي المشكلة والكباب من مطعم شهية",
+  tagline:"طعم الجمر… وروح العائلة.",
+  hlLabel:"مميزاتنا",
+  hl1t:"مشاوي على الفحم", hl1d:"لحوم متبلة ومشوية على الجمر.",
+  hl2t:"قسم عائلي", hl2d:"مكان هادئ ومريح للعائلات.",
+  hl2tAlt:"في المطعم أو سفري", hl2dAlt:"تناول طعامك عندنا أو خذه معك.",
+  hl3t:"عصائر وميلك شيك طازجة", hl3d:"تُحضّر عند الطلب.",
+  menuEyebrow:"قائمتنا", menuTitle:"المنيو", menuNote:"الأسعار بالفرنك الجيبوتي. اسألنا عن طبق اليوم.",
+  priceTbc:"السعر يُحدَّد لاحقاً", currency:"فرنك",
+  platEyebrow:"للمشاركة", platTitle:"صواني العائلة", platIntro:"صواني مشاوي كبيرة للعائلة والأصدقاء.",
+  people:"أشخاص", popular:"الأكثر طلباً", platOrder:"اطلب هذه الصينية",
+  orderEyebrow:"حجز وطلب", orderTitle:"احجز أو اطلب عبر واتساب",
+  orderIntro:"املأ النموذج وستجد رسالتك جاهزة في واتساب، فقط اضغط إرسال.",
+  asideTitle:"تفضّل الاتصال؟", asideText:"اتصل بنا مباشرة خلال ساعات العمل.",
+  fName:"الاسم", fPeople:"عدد الأشخاص", fDate:"التاريخ", fTime:"الوقت", fMode:"في المطعم أم سفري؟",
+  modeDine:"في المطعم", modeTake:"سفري", fNote:"الطلب أو ملاحظة (اختياري)", fNotePh:"مثال: صينية عائلية، كرسي أطفال…",
+  fSubmit:"إرسال عبر واتساب", fHint:"سيفتح واتساب مع رسالتك جاهزة، ولن يُرسَل شيء دون تأكيدك.",
+  errName:"يرجى كتابة اسمك.", errPeople:"يرجى إدخال عدد الأشخاص (من 1 إلى 60).", errDate:"اختر تاريخ اليوم أو بعده.",
+  errTime:"اختر وقتاً خلال ساعات العمل ({h}).", errPast:"هذا الوقت قد مضى، اختر وقتاً آخر.",
+  waHello:"السلام عليكم مطعم شهية 👋", waIntroDine:"أرغب في حجز طاولة:", waIntroTake:"أرغب في طلب سفري:",
+  waName:"الاسم", waPeople:"عدد الأشخاص", waDate:"التاريخ", waTime:"الوقت", waMode:"النوع", waNote:"ملاحظة", waThanks:"شكراً!",
+  waPlatter:"السلام عليكم مطعم شهية 👋 أرغب في طلب {p}.",
+  galEyebrow:"بالصور", galTitle:"معرض الصور", close:"إغلاق", prev:"الصورة السابقة", next:"الصورة التالية", openPhoto:"تكبير الصورة",
+  revEyebrow:"قالوا عنا", revTitle:"آراء زبائننا", revCta:"شاهد كل الآراء على Google",
+  revEmpty:"ستظهر آراء زبائننا هنا قريباً. زرتنا من قبل؟ اترك لنا تقييماً على Google!",
+  visEyebrow:"زورونا", visTitle:"المواعيد والموقع", hoursCaption:"مواعيد العمل (بتوقيت جيبوتي)",
+  days:["الأحد","الاثنين","الثلاثاء","الأربعاء","الخميس","الجمعة","السبت"], fridayNote:"نفتح بعد صلاة الجمعة",
+  open:"مفتوح الآن", closed:"مغلق", closesAt:"يغلق الساعة {t}", opensAt:"يفتح الساعة {t}", opensTomorrow:"يفتح غداً الساعة {t}",
+  address:"شارع بندر، بالقرب من مسجد حمودي، جيبوتي", directions:"الاتجاهات على خرائط Google", mapTitle:"خريطة: مطعم شهية، جيبوتي",
+  footAbout:"مشاوي وصواني مشكلة وعصائر طازجة في قلب جيبوتي.", footContact:"تواصل معنا", footHours:"المواعيد",
+  footHours1:"السبت – الخميس: 11:30 – 23:30", footHours2:"الجمعة: 12:30 – 23:30", madeBy:"تصميم الموقع:", waFloat:"راسل مطعم شهية على واتساب",
+  locale:"ar-u-nu-latn", title:"مطعم شهية Appetito – مشاوي وصواني عائلية في جيبوتي"
+},
+en:{
+  skip:"Skip to content", navLabel:"Main menu", navOpen:"Open menu", navClose:"Close menu",
+  navMenu:"Menu", navPlatters:"Family platters", navGallery:"Gallery", navReviews:"Reviews", navVisit:"Hours & location",
+  ctaOrder:"Order now", ctaMenu:"See the menu",
+  heroAlt:"Large mixed grill platter with kebabs and wraps at Appetito",
+  tagline:"Flame-grilled flavour, family spirit.",
+  hlLabel:"Highlights",
+  hl1t:"Charcoal grills", hl1d:"Marinated meats cooked over embers.",
+  hl2t:"Family area", hl2d:"A calm, comfortable space for families.",
+  hl2tAlt:"Dine in & takeaway", hl2dAlt:"Eat with us or take your order home.",
+  hl3t:"Fresh juices & milkshakes", hl3d:"Squeezed and blended to order.",
+  menuEyebrow:"Our food", menuTitle:"The menu", menuNote:"Prices in Djiboutian francs (DJF). Ask us about today's specials.",
+  priceTbc:"Price to be confirmed", currency:"DJF",
+  platEyebrow:"To share", platTitle:"Family platters", platIntro:"Big grill platters made for family and friends.",
+  people:"people", popular:"Most popular", platOrder:"Order this platter",
+  orderEyebrow:"Booking & orders", orderTitle:"Book or order on WhatsApp",
+  orderIntro:"Fill in the form: your WhatsApp message is ready, just hit send.",
+  asideTitle:"Prefer to call?", asideText:"Call us directly during opening hours.",
+  fName:"Your name", fPeople:"Number of people", fDate:"Date", fTime:"Time", fMode:"Dine in or takeaway?",
+  modeDine:"Dine in", modeTake:"Takeaway", fNote:"Order or note (optional)", fNotePh:"E.g. 1 family platter, high chair…",
+  fSubmit:"Send on WhatsApp", fHint:"WhatsApp opens with your message filled in. Nothing is sent until you confirm.",
+  errName:"Please enter your name.", errPeople:"Please enter the number of people (1 to 60).", errDate:"Choose today or a later date.",
+  errTime:"Choose a time within our opening hours ({h}).", errPast:"That time has already passed, please pick another.",
+  waHello:"Hello Appetito 👋", waIntroDine:"I would like to book a table:", waIntroTake:"I would like to place a takeaway order:",
+  waName:"Name", waPeople:"People", waDate:"Date", waTime:"Time", waMode:"Type", waNote:"Note", waThanks:"Thank you!",
+  waPlatter:"Hello Appetito 👋 I would like to order the {p}.",
+  galEyebrow:"In pictures", galTitle:"Gallery", close:"Close", prev:"Previous photo", next:"Next photo", openPhoto:"Enlarge photo",
+  revEyebrow:"What people say", revTitle:"Customer reviews", revCta:"Read all reviews on Google",
+  revEmpty:"Our customers' reviews will appear here soon. Been to see us? Leave us a review on Google!",
+  visEyebrow:"Come and see us", visTitle:"Hours & location", hoursCaption:"Opening hours (Djibouti time)",
+  days:["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], fridayNote:"Opens after Friday prayer",
+  open:"Open now", closed:"Closed", closesAt:"closes at {t}", opensAt:"opens at {t}", opensTomorrow:"opens tomorrow at {t}",
+  address:"Rue de Bender, near Hamoudi Mosque, Djibouti", directions:"Directions on Google Maps", mapTitle:"Map: Appetito Restaurant, Djibouti",
+  footAbout:"Grills, mixed platters and fresh juices in the heart of Djibouti.", footContact:"Contact", footHours:"Hours",
+  footHours1:"Sat – Thu: 11:30 – 23:30", footHours2:"Friday: 12:30 – 23:30", madeBy:"Website by", waFloat:"Message Appetito on WhatsApp",
+  locale:"en-GB", title:"Appetito Restaurant Djibouti – Grills & family platters | مطعم شهية"
+}};
+
+/* =====================================================================
+   LOGIC
+   ===================================================================== */
+var lang = "fr";
+var $ = function(s,c){return (c||document).querySelector(s);};
+var $$ = function(s,c){return Array.prototype.slice.call((c||document).querySelectorAll(s));};
+function t(k){ var v=I18N[lang][k]; return v==null ? I18N.fr[k] : v; }
+function fmt(s,o){ return s.replace(/\{(\w+)\}/g,function(_,k){return o[k];}); }
+function esc(s){ return String(s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];}); }
+function store(k,v){ try{ if(v===undefined) return localStorage.getItem(k); localStorage.setItem(k,v);}catch(e){ return null; } }
+function price(p){ return p==null ? '<span class="price tbc">'+esc(t("priceTbc"))+'</span>'
+  : '<span class="price">'+Number(p).toLocaleString(t("locale")).replace(/ | /g," ")+' '+esc(t("currency"))+'</span>'; }
+
+/* ---- Djibouti time (UTC+3) ---- */
+function djNow(){ var d=new Date(); return new Date(d.getTime()+d.getTimezoneOffset()*60000+3*3600000); }
+function toMin(s){ var p=s.split(":"); return (+p[0])*60+(+p[1]); }
+
+/* ---- Apply language ---- */
+function setLang(l){
+  if(!I18N[l]) l="fr";
+  lang=l;
+  var html=document.documentElement;
+  html.lang=l; html.dir = l==="ar" ? "rtl" : "ltr";
+  document.title=t("title");
+  $$("[data-i18n]").forEach(function(el){ el.textContent=t(el.getAttribute("data-i18n")); });
+  $$("[data-i18n-attr]").forEach(function(el){
+    el.getAttribute("data-i18n-attr").split(";").forEach(function(pair){
+      var p=pair.split(":"); el.setAttribute(p[0].trim(), t(p[1].trim()));
+    });
+  });
+  $$(".lang-switch button").forEach(function(b){ b.setAttribute("aria-pressed", String(b.dataset.lang===l)); });
+  if(!FAMILY_AREA){ $("#hl-family h3").textContent=t("hl2tAlt"); $("#hl-family p").textContent=t("hl2dAlt"); }
+  renderMenu(); renderPlatters(); renderGallery(); renderReviews(); renderHours(); updateStatus();
+  store("appetito-lang",l);
+}
+
+/* ---- Menu ---- */
+var activeCat = MENU[0].id;
+function renderMenu(){
+  var tabs=$("#menu-tabs");
+  tabs.innerHTML = MENU.map(function(c){
+    var sel=c.id===activeCat;
+    return '<button class="tab" role="tab" id="tab-'+c.id+'" aria-controls="menu-panel" aria-selected="'+sel+'" tabindex="'+(sel?0:-1)+'" data-cat="'+c.id+'">'+esc(c.name[lang])+'</button>';
+  }).join("");
+  var cat=MENU.filter(function(c){return c.id===activeCat;})[0];
+  var panel=$("#menu-panel");
+  panel.setAttribute("aria-labelledby","tab-"+cat.id);
+  panel.innerHTML = cat.items.map(function(it){
+    var d=it.desc && it.desc[lang];
+    return '<article class="dish"><h3>'+esc(it.name[lang])+'</h3>'+price(it.price)+(d?'<p>'+esc(d)+'</p>':'')+'</article>';
+  }).join("");
+}
+$("#menu-tabs").addEventListener("click",function(e){
+  var b=e.target.closest(".tab"); if(!b) return;
+  activeCat=b.dataset.cat; renderMenu(); $("#tab-"+activeCat).focus();
+});
+$("#menu-tabs").addEventListener("keydown",function(e){
+  var keys={ArrowRight:1,ArrowLeft:-1}; if(!(e.key in keys)) return;
+  var dir=keys[e.key]*(lang==="ar"?-1:1);
+  var i=MENU.findIndex(function(c){return c.id===activeCat;});
+  activeCat=MENU[(i+dir+MENU.length)%MENU.length].id; renderMenu(); $("#tab-"+activeCat).focus(); e.preventDefault();
+});
+
+/* ---- Platters ---- */
+var ICON_PEOPLE='<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="9" cy="7" r="3"/><circle cx="17" cy="8" r="2.5"/><path d="M2 20c0-3.9 3.1-7 7-7s7 3.1 7 7zM15.5 13.2A5.5 5.5 0 0 1 22 18.5V20h-4.3c0-2.6-.9-5-2.2-6.8z"/></svg>';
+function renderPlatters(){
+  $("#platter-grid").innerHTML = PLATTERS.map(function(p,i){
+    return '<article class="platter'+(p.featured?' featured':'')+'">'+
+      (p.featured?'<span class="badge">'+esc(t("popular"))+'</span>':'')+
+      '<span class="people">'+ICON_PEOPLE+'<span><bdi>'+esc(p.people)+'</bdi> '+esc(t("people"))+'</span></span>'+
+      '<h3>'+esc(p.name[lang])+'</h3>'+
+      '<ul>'+p.items[lang].map(function(x){return '<li>'+esc(x)+'</li>';}).join("")+'</ul>'+
+      '<div class="p-price">'+(p.price==null?'<small>'+esc(t("priceTbc"))+'</small>':Number(p.price).toLocaleString(t("locale")).replace(/ | /g," ")+' <small>'+esc(t("currency"))+'</small>')+'</div>'+
+      '<a class="btn btn-flame" target="_blank" rel="noopener" href="https://wa.me/'+WHATSAPP+'?text='+encodeURIComponent(fmt(t("waPlatter"),{p:p.name[lang]+" ("+p.people+" "+t("people")+")"}))+'">'+esc(t("platOrder"))+'</a>'+
+    '</article>';
+  }).join("");
+}
+
+/* ---- Gallery + lightbox ---- */
+function renderGallery(){
+  $("#gallery-grid").innerHTML = GALLERY.map(function(g,i){
+    return '<button type="button" data-i="'+i+'" aria-label="'+esc(t("openPhoto")+" : "+g.alt[lang])+'"><img src="'+esc(g.src)+'" alt="'+esc(g.alt[lang])+'" width="'+g.w+'" height="'+g.h+'" loading="lazy" decoding="async"></button>';
+  }).join("");
+}
+var lb=$("#lightbox"), lbIdx=0, lastFocus=null;
+function showLb(i){
+  lbIdx=(i+GALLERY.length)%GALLERY.length; var g=GALLERY[lbIdx];
+  $("#lb-img").src=g.src; $("#lb-img").alt=g.alt[lang]; $("#lb-cap").textContent=g.alt[lang]+"  ·  "+(lbIdx+1)+" / "+GALLERY.length;
+}
+function openLb(i){ lastFocus=document.activeElement; showLb(i); lb.hidden=false; lb.classList.add("open"); document.body.style.overflow="hidden"; $(".lb-close").focus(); }
+function closeLb(){ lb.classList.remove("open"); lb.hidden=true; document.body.style.overflow=""; if(lastFocus) lastFocus.focus(); }
+$("#gallery-grid").addEventListener("click",function(e){ var b=e.target.closest("button"); if(b) openLb(+b.dataset.i); });
+$(".lb-close").addEventListener("click",closeLb);
+$(".lb-prev").addEventListener("click",function(){showLb(lbIdx-1);});
+$(".lb-next").addEventListener("click",function(){showLb(lbIdx+1);});
+lb.addEventListener("click",function(e){ if(e.target===lb) closeLb(); });
+document.addEventListener("keydown",function(e){
+  if(lb.hidden) return;
+  var rtl=lang==="ar";
+  if(e.key==="Escape") closeLb();
+  else if(e.key==="ArrowRight") showLb(lbIdx+(rtl?-1:1));
+  else if(e.key==="ArrowLeft") showLb(lbIdx+(rtl?1:-1));
+  else if(e.key==="Tab"){ // focus trap
+    var f=$$(".lb-btn",lb), first=f[0], last=f[f.length-1];
+    if(e.shiftKey && document.activeElement===first){ last.focus(); e.preventDefault(); }
+    else if(!e.shiftKey && document.activeElement===last){ first.focus(); e.preventDefault(); }
+  }
+});
+(function(){ var x0=null;
+  lb.addEventListener("touchstart",function(e){x0=e.touches[0].clientX;},{passive:true});
+  lb.addEventListener("touchend",function(e){ if(x0==null) return; var dx=e.changedTouches[0].clientX-x0; x0=null;
+    if(Math.abs(dx)>50){ var fwd = dx<0; if(lang==="ar") fwd=!fwd; showLb(lbIdx+(fwd?1:-1)); } },{passive:true});
+})();
+
+/* ---- Reviews ---- */
+function renderReviews(){
+  var grid=$("#reviews-grid");
+  if(!REVIEWS.length){
+    grid.style.display="block";
+    grid.innerHTML='<div class="reviews-empty"><p style="margin:0">'+esc(t("revEmpty"))+'</p></div>';
+  } else {
+    grid.style.display="";
+    grid.innerHTML=REVIEWS.map(function(r){
+      var n=Math.max(0,Math.min(5,r.stars|0));
+      return '<figure class="review"'+(r.lang?' lang="'+esc(r.lang)+'"':'')+'><div class="stars" role="img" aria-label="'+n+'/5">'+"★★★★★".slice(0,n)+"☆☆☆☆☆".slice(0,5-n)+'</div><blockquote>“'+esc(r.text)+'”</blockquote><figcaption>— '+esc(r.author)+' · Google</figcaption></figure>';
+    }).join("");
+  }
+  var link=$("#reviews-link"); link.parentNode.hidden=!GOOGLE_REVIEWS_URL; if(GOOGLE_REVIEWS_URL) link.href=GOOGLE_REVIEWS_URL;
+}
+
+/* ---- Hours table + live status ---- */
+function renderHours(){
+  var today=djNow().getDay();
+  $("#hours-table tbody").innerHTML = DAY_ORDER.map(function(d){
+    var h=HOURS[d], cls=(d===5?"friday ":"")+(d===today?"today":"");
+    return '<tr class="'+cls.trim()+'"><th scope="row"'+(d===5?' data-note="'+esc(t("fridayNote"))+'"':'')+'>'+esc(t("days")[d])+'</th><td><bdi>'+h[0]+' – '+h[1]+'</bdi></td></tr>';
+  }).join("");
+}
+function statusInfo(){
+  var n=djNow(), d=n.getDay(), m=n.getHours()*60+n.getMinutes(), h=HOURS[d];
+  if(m>=toMin(h[0]) && m<toMin(h[1])) return {open:true, text:t("open")+" · "+fmt(t("closesAt"),{t:h[1]})};
+  if(m<toMin(h[0])) return {open:false, text:t("closed")+" · "+fmt(t("opensAt"),{t:h[0]})};
+  return {open:false, text:t("closed")+" · "+fmt(t("opensTomorrow"),{t:HOURS[(d+1)%7][0]})};
+}
+function updateStatus(){
+  var s=statusInfo();
+  $$(".js-status").forEach(function(el){ el.classList.toggle("is-open",s.open); el.classList.toggle("is-closed",!s.open); $(".js-status-text",el).textContent=s.text; });
+  var today=djNow().getDay();
+  $$("#hours-table tbody tr").forEach(function(tr,i){ tr.classList.toggle("today",DAY_ORDER[i]===today); });
+}
+setInterval(updateStatus,60000);
+
+/* ---- Order form → WhatsApp ---- */
+var form=$("#order-form"), err=$("#form-error");
+function pad(n){return (n<10?"0":"")+n;}
+function djToday(){ var n=djNow(); return n.getFullYear()+"-"+pad(n.getMonth()+1)+"-"+pad(n.getDate()); }
+$("#f-date").min=djToday(); $("#f-date").value=djToday();
+$$(".stepper button").forEach(function(b){ b.addEventListener("click",function(){
+  var i=$("#f-people"), v=(parseInt(i.value,10)||0)+(+b.dataset.step); i.value=Math.max(1,Math.min(60,v));
+});});
+function fail(msg,el){ err.textContent=msg; if(el){ el.focus(); el.setAttribute("aria-invalid","true"); } return false; }
+form.addEventListener("input",function(e){ e.target.removeAttribute("aria-invalid"); err.textContent=""; });
+form.addEventListener("submit",function(e){
+  e.preventDefault();
+  var name=$("#f-name").value.trim(), people=parseInt($("#f-people").value,10), date=$("#f-date").value, time=$("#f-time").value,
+      mode=form.mode.value, note=$("#f-note").value.trim();
+  if(!name) return fail(t("errName"),$("#f-name"));
+  if(!(people>=1 && people<=60)) return fail(t("errPeople"),$("#f-people"));
+  if(!date || date<djToday()) return fail(t("errDate"),$("#f-date"));
+  var dObj=new Date(date+"T12:00:00"), dow=dObj.getDay(), h=HOURS[dow];
+  if(!time || toMin(time)<toMin(h[0]) || toMin(time)>toMin(h[1])) return fail(fmt(t("errTime"),{h:t("days")[dow]+" "+h[0]+" – "+h[1]}),$("#f-time"));
+  if(date===djToday()){ var n=djNow(); if(toMin(time) < n.getHours()*60+n.getMinutes()) return fail(t("errPast"),$("#f-time")); }
+  var dateTxt=dObj.toLocaleDateString(t("locale"),{weekday:"long",day:"numeric",month:"long"});
+  var lines=[ t("waHello"), t(mode==="take"?"waIntroTake":"waIntroDine"), "",
+    "• "+t("waName")+" : "+name,
+    "• "+t("waPeople")+" : "+people,
+    "• "+t("waDate")+" : "+dateTxt,
+    "• "+t("waTime")+" : "+time,
+    "• "+t("waMode")+" : "+t(mode==="take"?"modeTake":"modeDine") ];
+  if(note) lines.push("• "+t("waNote")+" : "+note);
+  lines.push("", t("waThanks"));
+  var msg=lines.join("\n");
+  if(lang!=="fr") msg=msg.replace(/ : /g,": ");
+  window.open("https://wa.me/"+WHATSAPP+"?text="+encodeURIComponent(msg),"_blank","noopener");
+});
+
+/* ---- Mobile nav ---- */
+var toggle=$(".menu-toggle"), nav=$("#main-nav");
+function setNav(open){ nav.classList.toggle("open",open); toggle.setAttribute("aria-expanded",String(open)); toggle.setAttribute("aria-label",t(open?"navClose":"navOpen")); }
+toggle.addEventListener("click",function(){ setNav(!nav.classList.contains("open")); });
+nav.addEventListener("click",function(e){ if(e.target.closest("a")) setNav(false); });
+document.addEventListener("keydown",function(e){ if(e.key==="Escape" && nav.classList.contains("open")){ setNav(false); toggle.focus(); } });
+
+/* ---- Language switch ---- */
+$$(".lang-switch button").forEach(function(b){ b.addEventListener("click",function(){ setLang(b.dataset.lang); }); });
+
+$("#year").textContent=djNow().getFullYear();
+var qs=(location.search.match(/[?&]lang=(fr|ar|en)/)||[])[1];
+setLang(qs || store("appetito-lang") || "fr");
+})();
+</script>
+</body>
+</html>
